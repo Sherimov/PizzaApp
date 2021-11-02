@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Application\\SEDC.PizzaApp.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Application\\SEDC.PizzaApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Application\\SEDC.PizzaApp.Application.csproj",
+        "projectName": "SEDC.PizzaApp.Application",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Application\\SEDC.PizzaApp.Application.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessLayer\\SEDC.PizzaApp.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessLayer\\SEDC.PizzaApp.BusinessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessLayer\\SEDC.PizzaApp.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessLayer\\SEDC.PizzaApp.BusinessLayer.csproj",
+        "projectName": "SEDC.PizzaApp.BusinessLayer",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessLayer\\SEDC.PizzaApp.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessModels\\SEDC.PizzaApp.BusinessModels.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessModels\\SEDC.PizzaApp.BusinessModels.csproj"
+              },
+              "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj"
+              },
+              "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessModels\\SEDC.PizzaApp.BusinessModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessModels\\SEDC.PizzaApp.BusinessModels.csproj",
+        "projectName": "SEDC.PizzaApp.BusinessModels",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessModels\\SEDC.PizzaApp.BusinessModels.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj",
+        "projectName": "SEDC.PizzaApp.DataAccess",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj",
+        "projectName": "SEDC.PizzaApp.Domain",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\SEDC.PizzaApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

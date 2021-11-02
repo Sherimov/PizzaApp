@@ -1,0 +1,31 @@
+﻿@model HomeViewModel
+
+@{ 
+    ViewBag.Title = "Welcome";
+}
+
+    <div class="jumbotron">
+        <h1>Welcome to the Pizza app</h1>
+        <p>The best application for ordering pizza</p>
+
+        <h3>Order Pizza Now</h3>
+        @using (Html.BeginForm())
+        {
+            <div class="row">
+                <div class="col-md-2">
+                    @{
+                        if (ViewData["Error"] != null)
+                        {
+                            <p>@ViewData["Error"]</p>
+                        }
+                    }
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="submit">Order</button>
+                        </span>
+                        @Html.TextBoxFor(x => x.NumberOfPizzas, new { @class = "form-control", type = "number", min = 1 })
+                    </div>
+                </div>
+            </div>
+        }
+    </div>

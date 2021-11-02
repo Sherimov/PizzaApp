@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cKRQ8Q4PgMtP2hQSBeID4P/92zteaiVxVneZVCRxOFc9qe2v/8VHO6IyBlcCEQnjEszMZyDa9duQWMyRhpx1tQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vasil\\Desktop\\ASP.NET\\Nova\\skwd8-08-aspnetmvc-master\\g6\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.BusinessModels\\SEDC.PizzaApp.BusinessModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\vasil\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

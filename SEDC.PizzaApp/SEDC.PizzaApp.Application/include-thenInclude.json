@@ -1,0 +1,33 @@
+// with includes
+
+{
+  "id": 1,
+  "user": { // after then include, we want to include the user to
+    "id": 1,
+    "name": "User"
+  },
+  "pizzaOrders": [ // include PizzaOrders
+    {
+      "id": 1,
+      "orderId": 1,
+      "order": { // this is already included by taking order it self
+        "id": 1,
+        "user": {
+        }
+      },
+      "pizzaId": 1,
+      "pizza": { // then include Pizza
+        "id": 1,
+        "name": "pica"
+      }
+    }
+  ]
+}
+
+// without includes
+
+//{
+//	id: 1,
+//	user: null,
+//	pizzaOrders: null
+//}
